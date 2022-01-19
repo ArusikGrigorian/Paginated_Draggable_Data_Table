@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Data Table</title>
+</head>
+<body>
+    <main>
+        <section class="general-wrapper">
+            <div class="container">
+                <div class="quest-wrapper">
+                    <h1 class="quest-title">
+                        Looking for valid data?
+                    </h1>
+                    <div class="quest-btn-wrapper">
+                        <button class="quest-button btn-5" value="5">
+                            List Length 5
+                        </button>
+                        <button class="quest-button btn-10" value="10">
+                            List Length 10
+                        </button>
+                        <button class="quest-button btn-15" value="15">
+                            List Length 15
+                        </button>
+                    </div>
+                </div> 
+                <div class="loader">
+                    <div class="inner one"></div>
+                    <div class="inner two"></div>
+                    <div class="inner three"></div>
+                </div>
+                <div class="table-wrapper">
+                    <h1 class="table-title">
+                        Ghibli Studio Movies
+                    </h1>
+                    <form class="t-form">
+                        <input type="text" id="t-search" name="tbl-search" class="search" placeholder="search">
+                    </form>
+                    <table class="table-content">
+                        <thead class="t-head"></thead>
+                        <tbody class="t-body"></tbody>
+                    </table>
+                    <div class="controlPanel"></div>
+                </div>
+
+                <div class="error-wrapper">
+                    <img src="./assets/media/error.png" alt="Oops" class="error-img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/script/main.js" type="module"></script>
+</body>
+</html>
